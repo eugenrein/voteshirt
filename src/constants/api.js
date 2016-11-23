@@ -1,0 +1,1 @@
+export const API_URL = 'http://api.spreadshirt.net/api/v1/shops/205909/designs?mediaType=json&query=';
