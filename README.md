@@ -2,7 +2,7 @@
 
 Voteshirt is an expample app that receives designs from Spread Shirts API so you can like and dislike those.
 It is based on [React Slingshot](https://github.com/coryhouse/react-slingshot) starter kit with some minor changes in directory structure.
-Find a working demo on [Heroku](https://voteshirt.herokuapp.com).
+Find a working demo on [Heroku](http://voteshirt.herokuapp.com).
 
 ## Get Started
 1. **Initial Machine Setup**. First time running? Then complete the [Initial Machine Setup](https://github.com/coryhouse/react-slingshot#initial-machine-setup).
