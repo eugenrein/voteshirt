@@ -1,0 +1,50 @@
+@import 'page';
+@import 'navigation-page';
+@import 'design-card';
+@import 'empty-search-page';
+@import 'all-voted-page';
+@import 'result-panel';
+@import 'search-page';
+
+/* Styles */
+/*html, body, #app, .container {
+  height: 100%;
+}*/
+html {
+  display: flex;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  font: 14px 'Roboto', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  color: #333;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+#app {
+  display: flex;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+p {
+  margin-top: 0;
+}
+
+.text-center {
+  text-align: center;
+}
