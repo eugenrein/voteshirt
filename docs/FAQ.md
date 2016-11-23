@@ -35,6 +35,9 @@ Unfortunately, scripts in package.json can't be commented inline because the JSO
 ├── package.json              # Package configuration. The list of 3rd party libraries and utilities
 ├── src                       # Source code
 │   ├── actions               # Flux/Redux actions. List of distinct actions that can occur in the app.
+|   |── assets                # Images and stylesheets
+|   |   |── images            # Images used in app
+|   |   └── stylesheets       # Stylesheets (.scss files)
 │   ├── components            # React components
 │   ├── constants             # Application constants including constants for Redux
 │   ├── containers            # Top-level React components that interact with Redux
@@ -45,6 +48,14 @@ Unfortunately, scripts in package.json can't be commented inline because the JSO
 │   ├── store                 # Redux store configuration
 │   ├── styles                # CSS Styles, typically written in Sass
 │   └── utils                 # Plain old JS objects (POJOs). Pure logic. No framework specific code here.
+├── tests                     # Test code
+│   ├── actions               # Tests of Flux/Redux actions
+│   ├── components            # Test of React components
+│   ├── constants             # Test constants including constants for Redux
+│   ├── containers            # Tests of Top-level React components that interact with Redux
+│   ├── reducers              # Tests of Redux reducers
+│   ├── store                 # Test of the Redux store configuration
+│   └── utils                 # Helpers used in tests
 ├── tools                     # Node scripts that run build related tools
 │   ├── setup                 # Scripts for setting up a new project using React Slingshot
 │   │   ├── setup.js          # Configure project set up
